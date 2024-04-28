@@ -7,7 +7,7 @@ const movieQuote = document.querySelector(".movie-info-quote");
 const movieOverview = document.querySelector(".movie-info-overview");
 const footerYear = document.querySelector(".year");
 window.onload =() => {
-let url = "https://api.themoviedb.org/3/movie/550988?api_key=87a32ef55335ba35e416797010a0e286";
+let url = "https://api.themoviedb.org/3/movie/787699?api_key=87a32ef55335ba35e416797010a0e286";
 
 fetch(url)
 .then(response =>{ 
